@@ -1,0 +1,3 @@
+var searchIndex = {};
+searchIndex["mio_named_pipes"] = {"doc":"","items":[[3,"NamedPipe","mio_named_pipes","",null,null],[11,"new","","",0,{"inputs":[{"name":"a"}],"output":{"name":"result"}}],[11,"connect","","",0,null],[11,"disconnect","","",0,null],[11,"read","","",0,null],[11,"write","","",0,null],[11,"flush","","",0,null],[11,"register","","",0,null],[11,"reregister","","",0,null],[11,"deregister","","",0,null],[11,"as_raw_handle","","",0,null],[11,"from_raw_handle","","",0,{"inputs":[{"name":"rawhandle"}],"output":{"name":"namedpipe"}}],[11,"fmt","","",0,null],[11,"drop","","",0,null]],"paths":[[3,"NamedPipe"]]};
+initSearch(searchIndex);
