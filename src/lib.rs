@@ -325,11 +325,7 @@ impl<'a> Read for &'a NamedPipe {
             // we schedule a new one.
             State::Err(e) => {
                 Inner::schedule_read(&self.inner, &mut state);
-                if e.raw_os_error() == Some(ERROR_BROKEN_PIPE as i32) {
-                    Ok(0)
-                } else {
-                    Err(e)
-                }
+                Err(e)
             }
         }
     }
